@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3834F5579CC7EC58F9442EB2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3A77E32B82071477E590944 /* libPods.a */; };
+		760441DE1C3D42E700F2F87F /* PDTMapDirectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 760441DD1C3D42E700F2F87F /* PDTMapDirectViewController.m */; };
+		760441E31C3D4B1700F2F87F /* TENNavConfirmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 760441E11C3D4B1700F2F87F /* TENNavConfirmViewController.m */; };
+		760441E41C3D4B1700F2F87F /* TENNavConfirmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 760441E21C3D4B1700F2F87F /* TENNavConfirmViewController.xib */; };
+		760441E91C3D50BF00F2F87F /* TENNavContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 760441E71C3D50BF00F2F87F /* TENNavContactViewController.m */; };
+		760441EA1C3D50BF00F2F87F /* TENNavContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 760441E81C3D50BF00F2F87F /* TENNavContactViewController.xib */; };
+		76651EBF1C3A776B003EA625 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76651EBE1C3A776B003EA625 /* main.m */; };
+		76651EC21C3A776B003EA625 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76651EC11C3A776B003EA625 /* AppDelegate.m */; };
+		76651ECA1C3A776B003EA625 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76651EC91C3A776B003EA625 /* Assets.xcassets */; };
+		76651ECD1C3A776B003EA625 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76651ECB1C3A776B003EA625 /* LaunchScreen.storyboard */; };
+		76651EDA1C3A787A003EA625 /* TENMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76651ED81C3A787A003EA625 /* TENMapViewController.m */; };
+		76651EDB1C3A787A003EA625 /* TENMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76651ED91C3A787A003EA625 /* TENMapViewController.xib */; };
+		76651EE01C3A9307003EA625 /* TENBottomGroupSizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76651EDE1C3A9307003EA625 /* TENBottomGroupSizeViewController.m */; };
+		76651EE11C3A9307003EA625 /* TENBottomGroupSizeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76651EDF1C3A9307003EA625 /* TENBottomGroupSizeViewController.xib */; };
+		76651EE61C3A933A003EA625 /* TENBottomConfirmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76651EE41C3A933A003EA625 /* TENBottomConfirmViewController.m */; };
+		76651EE71C3A933A003EA625 /* TENBottomConfirmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76651EE51C3A933A003EA625 /* TENBottomConfirmViewController.xib */; };
+		76651EE91C3A9461003EA625 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 76651EE81C3A9461003EA625 /* map.png */; };
+		76B7372C1C3BBD1900756B3C /* TENNavMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B7372A1C3BBD1900756B3C /* TENNavMapViewController.m */; };
+		76B7372D1C3BBD1900756B3C /* TENNavMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76B7372B1C3BBD1900756B3C /* TENNavMapViewController.xib */; };
+		76B737321C3BBF4900756B3C /* TENNavGroupSizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B737301C3BBF4900756B3C /* TENNavGroupSizeViewController.m */; };
+		76B737331C3BBF4900756B3C /* TENNavGroupSizeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76B737311C3BBF4900756B3C /* TENNavGroupSizeViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		760441DC1C3D42E700F2F87F /* PDTMapDirectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDTMapDirectViewController.h; sourceTree = "<group>"; };
+		760441DD1C3D42E700F2F87F /* PDTMapDirectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDTMapDirectViewController.m; sourceTree = "<group>"; };
+		760441E01C3D4B1700F2F87F /* TENNavConfirmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TENNavConfirmViewController.h; sourceTree = "<group>"; };
+		760441E11C3D4B1700F2F87F /* TENNavConfirmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TENNavConfirmViewController.m; sourceTree = "<group>"; };
+		760441E21C3D4B1700F2F87F /* TENNavConfirmViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TENNavConfirmViewController.xib; sourceTree = "<group>"; };
+		760441E61C3D50BF00F2F87F /* TENNavContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TENNavContactViewController.h; sourceTree = "<group>"; };
+		760441E71C3D50BF00F2F87F /* TENNavContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TENNavContactViewController.m; sourceTree = "<group>"; };
+		760441E81C3D50BF00F2F87F /* TENNavContactViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TENNavContactViewController.xib; sourceTree = "<group>"; };
+		76651EBA1C3A776B003EA625 /* TENPocodotMapView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TENPocodotMapView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76651EBE1C3A776B003EA625 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76651EC01C3A776B003EA625 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		76651EC11C3A776B003EA625 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		76651EC91C3A776B003EA625 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76651ECC1C3A776B003EA625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76651ECE1C3A776B003EA625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76651ED71C3A787A003EA625 /* TENMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TENMapViewController.h; sourceTree = "<group>"; };
+		76651ED81C3A787A003EA625 /* TENMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TENMapViewController.m; sourceTree = "<group>"; };
+		76651ED91C3A787A003EA625 /* TENMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TENMapViewController.xib; sourceTree = "<group>"; };
+		76651EDD1C3A9307003EA625 /* TENBottomGroupSizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TENBottomGroupSizeViewController.h; sourceTree = "<group>"; };
+		76651EDE1C3A9307003EA625 /* TENBottomGroupSizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TENBottomGroupSizeViewController.m; sourceTree = "<group>"; };
+		76651EDF1C3A9307003EA625 /* TENBottomGroupSizeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TENBottomGroupSizeViewController.xib; sourceTree = "<group>"; };
+		76651EE31C3A933A003EA625 /* TENBottomConfirmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TENBottomConfirmViewController.h; sourceTree = "<group>"; };
+		76651EE41C3A933A003EA625 /* TENBottomConfirmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TENBottomConfirmViewController.m; sourceTree = "<group>"; };
+		76651EE51C3A933A003EA625 /* TENBottomConfirmViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TENBottomConfirmViewController.xib; sourceTree = "<group>"; };
+		76651EE81C3A9461003EA625 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		76B737291C3BBD1900756B3C /* TENNavMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TENNavMapViewController.h; sourceTree = "<group>"; };
+		76B7372A1C3BBD1900756B3C /* TENNavMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TENNavMapViewController.m; sourceTree = "<group>"; };
+		76B7372B1C3BBD1900756B3C /* TENNavMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TENNavMapViewController.xib; sourceTree = "<group>"; };
+		76B7372F1C3BBF4900756B3C /* TENNavGroupSizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TENNavGroupSizeViewController.h; sourceTree = "<group>"; };
+		76B737301C3BBF4900756B3C /* TENNavGroupSizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TENNavGroupSizeViewController.m; sourceTree = "<group>"; };
+		76B737311C3BBF4900756B3C /* TENNavGroupSizeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TENNavGroupSizeViewController.xib; sourceTree = "<group>"; };
+		8A341591836C616A5BF7F5AA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C3A77E32B82071477E590944 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8B8091C7131F03F03FB748D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76651EB71C3A776B003EA625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3834F5579CC7EC58F9442EB2 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51EABBE58B2D8290A9BA76E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A341591836C616A5BF7F5AA /* Pods.debug.xcconfig */,
+				F8B8091C7131F03F03FB748D /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		760441DB1C3D42C200F2F87F /* PDTMapDirectViewController */ = {
+			isa = PBXGroup;
+			children = (
+				760441DC1C3D42E700F2F87F /* PDTMapDirectViewController.h */,
+				760441DD1C3D42E700F2F87F /* PDTMapDirectViewController.m */,
+			);
+			path = PDTMapDirectViewController;
+			sourceTree = "<group>";
+		};
+		760441DF1C3D4AFD00F2F87F /* TENNavConfirmViewController */ = {
+			isa = PBXGroup;
+			children = (
+				760441E01C3D4B1700F2F87F /* TENNavConfirmViewController.h */,
+				760441E11C3D4B1700F2F87F /* TENNavConfirmViewController.m */,
+				760441E21C3D4B1700F2F87F /* TENNavConfirmViewController.xib */,
+			);
+			path = TENNavConfirmViewController;
+			sourceTree = "<group>";
+		};
+		760441E51C3D509D00F2F87F /* TENNavContactViewController */ = {
+			isa = PBXGroup;
+			children = (
+				760441E61C3D50BF00F2F87F /* TENNavContactViewController.h */,
+				760441E71C3D50BF00F2F87F /* TENNavContactViewController.m */,
+				760441E81C3D50BF00F2F87F /* TENNavContactViewController.xib */,
+			);
+			path = TENNavContactViewController;
+			sourceTree = "<group>";
+		};
+		76651EB11C3A776B003EA625 = {
+			isa = PBXGroup;
+			children = (
+				76651ED41C3A7851003EA625 /* Source */,
+				76651EBC1C3A776B003EA625 /* TENPocodotMapView */,
+				76651EBB1C3A776B003EA625 /* Products */,
+				51EABBE58B2D8290A9BA76E2 /* Pods */,
+				9E52AB71157EDCFBA227B859 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		76651EBB1C3A776B003EA625 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76651EBA1C3A776B003EA625 /* TENPocodotMapView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76651EBC1C3A776B003EA625 /* TENPocodotMapView */ = {
+			isa = PBXGroup;
+			children = (
+				76651EC01C3A776B003EA625 /* AppDelegate.h */,
+				76651EC11C3A776B003EA625 /* AppDelegate.m */,
+				76651EC91C3A776B003EA625 /* Assets.xcassets */,
+				76651EE81C3A9461003EA625 /* map.png */,
+				76651ECB1C3A776B003EA625 /* LaunchScreen.storyboard */,
+				76651ECE1C3A776B003EA625 /* Info.plist */,
+				76651EBD1C3A776B003EA625 /* Supporting Files */,
+			);
+			path = TENPocodotMapView;
+			sourceTree = "<group>";
+		};
+		76651EBD1C3A776B003EA625 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76651EBE1C3A776B003EA625 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76651ED41C3A7851003EA625 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				76B737271C3BBCDC00756B3C /* NavigationVersion */,
+				76651ED51C3A7851003EA625 /* GUI */,
+			);
+			name = Source;
+			path = TENPocodotMapView/Source;
+			sourceTree = "<group>";
+		};
+		76651ED51C3A7851003EA625 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				76651EE21C3A932F003EA625 /* TENBottomConfirmViewController */,
+				76651EDC1C3A92F8003EA625 /* TENBottomGroupSizeViewController */,
+				76651ED61C3A7851003EA625 /* TENMapViewController */,
+			);
+			path = GUI;
+			sourceTree = "<group>";
+		};
+		76651ED61C3A7851003EA625 /* TENMapViewController */ = {
+			isa = PBXGroup;
+			children = (
+				76651ED71C3A787A003EA625 /* TENMapViewController.h */,
+				76651ED81C3A787A003EA625 /* TENMapViewController.m */,
+				76651ED91C3A787A003EA625 /* TENMapViewController.xib */,
+			);
+			path = TENMapViewController;
+			sourceTree = "<group>";
+		};
+		76651EDC1C3A92F8003EA625 /* TENBottomGroupSizeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				76651EDD1C3A9307003EA625 /* TENBottomGroupSizeViewController.h */,
+				76651EDE1C3A9307003EA625 /* TENBottomGroupSizeViewController.m */,
+				76651EDF1C3A9307003EA625 /* TENBottomGroupSizeViewController.xib */,
+			);
+			path = TENBottomGroupSizeViewController;
+			sourceTree = "<group>";
+		};
+		76651EE21C3A932F003EA625 /* TENBottomConfirmViewController */ = {
+			isa = PBXGroup;
+			children = (
+				76651EE31C3A933A003EA625 /* TENBottomConfirmViewController.h */,
+				76651EE41C3A933A003EA625 /* TENBottomConfirmViewController.m */,
+				76651EE51C3A933A003EA625 /* TENBottomConfirmViewController.xib */,
+			);
+			path = TENBottomConfirmViewController;
+			sourceTree = "<group>";
+		};
+		76B737271C3BBCDC00756B3C /* NavigationVersion */ = {
+			isa = PBXGroup;
+			children = (
+				760441E51C3D509D00F2F87F /* TENNavContactViewController */,
+				760441DF1C3D4AFD00F2F87F /* TENNavConfirmViewController */,
+				760441DB1C3D42C200F2F87F /* PDTMapDirectViewController */,
+				76B7372E1C3BBF3E00756B3C /* TENNavGroupSizeViewController */,
+				76B737281C3BBD0900756B3C /* TENNavMapViewController */,
+			);
+			path = NavigationVersion;
+			sourceTree = "<group>";
+		};
+		76B737281C3BBD0900756B3C /* TENNavMapViewController */ = {
+			isa = PBXGroup;
+			children = (
+				76B737291C3BBD1900756B3C /* TENNavMapViewController.h */,
+				76B7372A1C3BBD1900756B3C /* TENNavMapViewController.m */,
+				76B7372B1C3BBD1900756B3C /* TENNavMapViewController.xib */,
+			);
+			path = TENNavMapViewController;
+			sourceTree = "<group>";
+		};
+		76B7372E1C3BBF3E00756B3C /* TENNavGroupSizeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				76B7372F1C3BBF4900756B3C /* TENNavGroupSizeViewController.h */,
+				76B737301C3BBF4900756B3C /* TENNavGroupSizeViewController.m */,
+				76B737311C3BBF4900756B3C /* TENNavGroupSizeViewController.xib */,
+			);
+			path = TENNavGroupSizeViewController;
+			sourceTree = "<group>";
+		};
+		9E52AB71157EDCFBA227B859 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3A77E32B82071477E590944 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76651EB91C3A776B003EA625 /* TENPocodotMapView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76651ED11C3A776B003EA625 /* Build configuration list for PBXNativeTarget "TENPocodotMapView" */;
+			buildPhases = (
+				35B1FC22D17A2EBACC77AF79 /* Check Pods Manifest.lock */,
+				76651EB61C3A776B003EA625 /* Sources */,
+				76651EB71C3A776B003EA625 /* Frameworks */,
+				76651EB81C3A776B003EA625 /* Resources */,
+				6069B333E11B14C697400095 /* Embed Pods Frameworks */,
+				E86D3D4556ED7870A07FA86A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TENPocodotMapView;
+			productName = TENPocodotMapView;
+			productReference = 76651EBA1C3A776B003EA625 /* TENPocodotMapView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76651EB21C3A776B003EA625 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = 444ten;
+				TargetAttributes = {
+					76651EB91C3A776B003EA625 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 76651EB51C3A776B003EA625 /* Build configuration list for PBXProject "TENPocodotMapView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76651EB11C3A776B003EA625;
+			productRefGroup = 76651EBB1C3A776B003EA625 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76651EB91C3A776B003EA625 /* TENPocodotMapView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76651EB81C3A776B003EA625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76651EE91C3A9461003EA625 /* map.png in Resources */,
+				76651EE11C3A9307003EA625 /* TENBottomGroupSizeViewController.xib in Resources */,
+				76651EE71C3A933A003EA625 /* TENBottomConfirmViewController.xib in Resources */,
+				760441E41C3D4B1700F2F87F /* TENNavConfirmViewController.xib in Resources */,
+				76651ECD1C3A776B003EA625 /* LaunchScreen.storyboard in Resources */,
+				76B7372D1C3BBD1900756B3C /* TENNavMapViewController.xib in Resources */,
+				76651ECA1C3A776B003EA625 /* Assets.xcassets in Resources */,
+				76651EDB1C3A787A003EA625 /* TENMapViewController.xib in Resources */,
+				76B737331C3BBF4900756B3C /* TENNavGroupSizeViewController.xib in Resources */,
+				760441EA1C3D50BF00F2F87F /* TENNavContactViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35B1FC22D17A2EBACC77AF79 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6069B333E11B14C697400095 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E86D3D4556ED7870A07FA86A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76651EB61C3A776B003EA625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76651EE01C3A9307003EA625 /* TENBottomGroupSizeViewController.m in Sources */,
+				76B7372C1C3BBD1900756B3C /* TENNavMapViewController.m in Sources */,
+				76651EC21C3A776B003EA625 /* AppDelegate.m in Sources */,
+				760441E31C3D4B1700F2F87F /* TENNavConfirmViewController.m in Sources */,
+				76651EE61C3A933A003EA625 /* TENBottomConfirmViewController.m in Sources */,
+				76651EBF1C3A776B003EA625 /* main.m in Sources */,
+				76651EDA1C3A787A003EA625 /* TENMapViewController.m in Sources */,
+				760441E91C3D50BF00F2F87F /* TENNavContactViewController.m in Sources */,
+				76B737321C3BBF4900756B3C /* TENNavGroupSizeViewController.m in Sources */,
+				760441DE1C3D42E700F2F87F /* PDTMapDirectViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		76651ECB1C3A776B003EA625 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76651ECC1C3A776B003EA625 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76651ECF1C3A776B003EA625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76651ED01C3A776B003EA625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76651ED21C3A776B003EA625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A341591836C616A5BF7F5AA /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TENPocodotMapView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-44ten.TENPocodotMapView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		76651ED31C3A776B003EA625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8B8091C7131F03F03FB748D /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TENPocodotMapView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-44ten.TENPocodotMapView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76651EB51C3A776B003EA625 /* Build configuration list for PBXProject "TENPocodotMapView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76651ECF1C3A776B003EA625 /* Debug */,
+				76651ED01C3A776B003EA625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76651ED11C3A776B003EA625 /* Build configuration list for PBXNativeTarget "TENPocodotMapView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76651ED21C3A776B003EA625 /* Debug */,
+				76651ED31C3A776B003EA625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76651EB21C3A776B003EA625 /* Project object */;
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TENMapViewController">
+            <connections>
+                <outlet property="bottomView" destination="cxn-ov-Zpn" id="3LB-bY-oEj"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="map.png" translatesAutoresizingMaskIntoConstraints="NO" id="whl-wP-yFx">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cxn-ov-Zpn">
+                    <rect key="frame" x="0.0" y="517" width="375" height="150"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="adi-e0-QlL">
+                    <rect key="frame" x="151" y="275" width="72" height="30"/>
+                    <state key="normal" title="GroupSize"/>
+                    <connections>
+                        <action selector="onGroupSize:" destination="-1" eventType="touchUpInside" id="j8c-d9-2wf"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6VS-cg-zOx">
+                    <rect key="frame" x="160" y="319" width="55" height="30"/>
+                    <state key="normal" title="Confirm"/>
+                    <connections>
+                        <action selector="onConfirm:" destination="-1" eventType="touchUpInside" id="OhZ-AU-mQB"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U0E-B4-4g9">
+                    <rect key="frame" x="134" y="195" width="106" height="30"/>
+                    <state key="normal" title="hideChildViews"/>
+                    <connections>
+                        <action selector="onHideChildViews:" destination="-1" eventType="touchUpInside" id="Cno-pw-JvP"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7bE-0S-gLS">
+                    <rect key="frame" x="131" y="233" width="112" height="30"/>
+                    <state key="normal" title="showChildViews"/>
+                    <connections>
+                        <action selector="onShowChildViews:" destination="-1" eventType="touchUpInside" id="For-Sb-Mgl"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="whl-wP-yFx" secondAttribute="trailing" id="8Yk-cm-Kn6"/>
+                <constraint firstItem="whl-wP-yFx" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="GNw-IM-2O4"/>
+                <constraint firstAttribute="bottom" secondItem="whl-wP-yFx" secondAttribute="bottom" id="kcG-h8-bq4"/>
+                <constraint firstItem="whl-wP-yFx" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="zsc-RD-G3D"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="map.png" width="350" height="672"/>
+    </resources>
+</document>
